@@ -24,6 +24,10 @@ Coding in Go Lang
    ```
     var myChar rune
    ```
+2. To convert rune to string
+   ```
+   val := string(myChar)
+   ```
 
 
 ### Stack Array
@@ -48,4 +52,13 @@ Coding in Go Lang
    ```
    len := len(stack)
    ```
+
+
+### For loop in go lang
+
+```
+for (i := 0; i< len(word); i++) {
+   
+}
+```
     
