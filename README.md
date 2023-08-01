@@ -29,6 +29,21 @@ Coding in Go Lang
    val := string(myChar)
    ```
 
+### String
+1. Find length of string
+  ```
+  len(str)
+  ```
+2. Substring of string
+  ```
+  s[: len(s) - 3]
+  ```
+3. To check if 2 strings are equal
+   ```
+   if s1 == s2 {
+      // do something
+   }
+   ```
 
 ### Stack Array
 
