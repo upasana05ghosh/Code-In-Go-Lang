@@ -69,11 +69,25 @@ Coding in Go Lang
    ```
 
 
+### To create a slice
+1. Slice is a variable sized array. We can use it when we don't know the exact size of array we want. 
+   ```
+   mySlice := make([]int, size)
+   ```
+
 ### For loop in go lang
 
 ```
 for (i := 0; i< len(word); i++) {
-   
+   // do something
+}
+```
+
+or 
+
+```
+for index, val := range arr {
+   // do something
 }
 ```
     
