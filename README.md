@@ -28,6 +28,17 @@ Coding in Go Lang
    ```
    val := string(myChar)
    ```
+3. To convert string to rune
+   ```
+   myRune := []rune(myString)
+   ```
+4. If you want to replace a char at index i in string. 
+   a) Convert it to array of rune
+   b) update the char at index i
+      ```
+      myRune[i] = 'c'
+      ```
+   c) Convert the rune array to string (follow #2)
 
 ### String
 1. Find length of string
