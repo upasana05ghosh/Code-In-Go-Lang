@@ -55,6 +55,15 @@ Coding in Go Lang
       // do something
    }
    ```
+4. To remove one or multiple whitespaces from string, use strings.Fields
+   It returns array of string without any whitespaces
+  ```
+  words := strings.Fields(str)
+  ```
+5. To convert array to string, use strings.Join()
+   ```
+   strings.Join(words, " ")
+   ```
 
 ### Stack Array
 
@@ -85,6 +94,7 @@ Coding in Go Lang
    ```
    mySlice := make([]int, size)
    ```
+2. While passing slice as an argument, we don't need to pass them as pointer. In Go, everything is passed by value, slices too. But a slice variable is a pointer to the value already.  
 
 ### For loop in go lang
 
