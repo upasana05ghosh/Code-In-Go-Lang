@@ -65,6 +65,10 @@ Coding in Go Lang
    strings.Join(words, " ")
    ```
 
+### Int
+1. Convert int to string
+   strNum := strconv.Itoa(num) 
+
 ### Stack Array
 
 1. Create a stack array of type rune/char
