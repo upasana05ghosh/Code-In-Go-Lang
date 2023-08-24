@@ -67,7 +67,9 @@ Coding in Go Lang
 
 ### Int
 1. Convert int to string
-   strNum := strconv.Itoa(num) 
+   strNum := strconv.Itoa(num)
+2. Max int value
+   max := math.MaxInt32
 
 ### Stack Array
 
