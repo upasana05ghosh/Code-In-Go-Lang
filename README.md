@@ -10,7 +10,7 @@ Coding in Go Lang
     ```
  2. check if map contains key:
     ```
-     if val, ok := myMap[key]; ok {
+     if val, isPresent := myMap[key]; isPresent {
             //do something
      }
     ```
