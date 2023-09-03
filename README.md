@@ -18,6 +18,29 @@ Coding in Go Lang
     ```
     myMap[key] = val
     ```
+4. To iterate over a map
+   ```
+   for key, val := range myMap {
+      //do something
+   }
+   ```
+
+### Set
+1. Create a set: 
+   ```
+   mySet := make(map[int] bool)
+   ```
+
+2. Check if set contains key: 
+   ```
+   if val, isPresent := mySet[key]; isPresent {
+      //do something
+   }
+   ```
+3. Add value to set
+   ```
+   mySet[key] = true
+   ```
 
 ### Character / rune
 1. to create a char/character, rune is the keyword
