@@ -125,6 +125,16 @@ Coding in Go Lang
    ```
 2. While passing slice as an argument, we don't need to pass them as pointer. In Go, everything is passed by value, slices too. But a slice variable is a pointer to the value already.  
 
+
+### Array
+1. To create an array of fixed size
+   ```
+   arr := make([]int, 10)
+   ```
+2. To sort array element
+   ```
+   sort.Ints(arr)
+   ```
 ### For loop in go lang
 
 ```
