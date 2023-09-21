@@ -124,7 +124,10 @@ Coding in Go Lang
    mySlice := make([]int, size)
    ```
 2. While passing slice as an argument, we don't need to pass them as pointer. In Go, everything is passed by value, slices too. But a slice variable is a pointer to the value already.  
-
+3. To check if two slice are equal
+   ```
+   reflect.DeepEqual(sl1, sl2)
+   ```
 
 ### Array
 1. To create an array of fixed size
