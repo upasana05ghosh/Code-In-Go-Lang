@@ -88,6 +88,23 @@ Coding in Go Lang
    strings.Join(words, " ")
    ```
 
+### String Builder
+If we are updating strig frequently, a new string will be created in the memory. 
+Reason - strings are immutable in Go, so if we are adding content to it, we are creating a new string every time. 
+Use strings.Builder instead
+1. To create string builder
+   ```
+   var sb strings.Builder
+   ```
+2. To add string to string builder
+   ```
+   sb.WriteString(s)
+   ```
+3. To convert it to string
+   ```
+   sb.String()
+   ```
+
 ### Int
 1. Convert int to string
    strNum := strconv.Itoa(num)
