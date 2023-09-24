@@ -155,6 +155,10 @@ Use strings.Builder instead
    ```
    sort.Ints(arr)
    ```
+3. To create a 2-D array of nxn
+   ```
+   arr := make([][]int, n)
+   ```
 ### For loop in go lang
 
 ```
