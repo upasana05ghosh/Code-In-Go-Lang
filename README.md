@@ -159,6 +159,14 @@ Use strings.Builder instead
    ```
    arr := make([][]int, n)
    ```
+4. Create an array of nx2
+   ```
+   var arr[][2] int
+   ```
+5. To add value to this array
+   ```
+   arr = append(arr, [2]int {i, j})
+   ```
 ### For loop in go lang
 
 ```
