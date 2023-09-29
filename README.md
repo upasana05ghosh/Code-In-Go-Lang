@@ -167,6 +167,13 @@ Use strings.Builder instead
    ```
    arr = append(arr, [2]int {i, j})
    ```
+6. To create rxc array
+   ```
+   arr := make([][]int, r)
+   for i := range arr {
+      arr[i] = make([]int, c)
+   }
+   ```
 ### For loop in go lang
 
 ```
