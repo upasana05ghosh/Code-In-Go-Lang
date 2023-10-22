@@ -174,6 +174,12 @@ Use strings.Builder instead
       arr[i] = make([]int, c)
    }
    ```
+7. Sort 2-D array
+   ```
+   sort.Slice(arr, func (a, b int) bool {
+        return arr[a][0] > arr[b][0]
+    })
+   ```
 ### For loop in go lang
 
 ```
